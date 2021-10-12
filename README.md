@@ -2,7 +2,7 @@
 
 Inspired by [notBoxPlot](https://github.com/raacampbell/notBoxPlot) for MATLAB, this repository contains the Python 3 implementation based on matplotlib.
 
-notBoxPlot is a data visualization function that goes beyond conventional box-plot like plots. It allows to visualize both statistic descriptors as well as single data points for a distribution, giving more information. 
+notBoxPlot is a data visualization function that goes beyond conventional box-plot like plots. It allows to visualize both statistic descriptors as well as single data points for a distribution, showing more information. 
 
 The user can deeply control the aspect of the plot with several (optional) parameters to the function. Many plots can be combined within the same figure/subplot to compare distributions!
 
