@@ -18,7 +18,7 @@ def notBoxPlot(x, xpos=1, w=0.2, ax=None, color=['#adb9e3', '#acdde7'], hatch=No
     from matplotlib.patches import Rectangle as rect
     m,b1,b2,l1,l2 = boxValues(x)
     if ax is None:
-        plt.figure()
+        plt.figure(dpi=150)
         ax = plt.gca()
     if type(color) == int:
         color = COLOR_PAIRS[color]
