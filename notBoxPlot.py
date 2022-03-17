@@ -6,10 +6,10 @@ VALID_STYLES = ["boxes", "lines"]
 COLOR_PAIRS = [["#fe9999", "#a7a7fc"], ["#EBF5FF", "#a2d2ff"]]
 
 ''' Drawing Function '''
-def notBoxPlot(x, xpos=1, w=0.2, ax=None, color=['#adb9e3', '#acdde7'], hatch=None, hatch_color="white", dotcolor='grey', dotsize=20, style="boxes"):
+def nbpi(x, xpos=1, w=0.2, ax=None, color=['#adb9e3', '#acdde7'], hatch=None, hatch_color="white", dotcolor='grey', dotsize=20, style="boxes"):
 
     # Used if style='lines'
-    line_reduction_factor = 7.5
+    line_reduction_factor = 6.5
     hatch_big = None
 
     if style not in VALID_STYLES:
